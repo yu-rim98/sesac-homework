@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label>
+          <input type="text" placeholder="아이디" />
+          <span>@naver.com</span>
+        </label>
+      </div>
+      <br />
+
+      <div>
+        <label> <input type="password" placeholder="비밀번호" /></label>
+      </div>
+
+      <br />
+
+      <div>
+        <label>
+          <input
+            type="email"
+            placeholder="[선택] 이메일주소 (비밀번호 찾기 등 본인 확인용)"
+        /></label>
+      </div>
+
+      <br />
+
+      <div>
+        <label> <input type="text" placeholder="이름" /> </label>
+      </div>
+
+      <br />
+
+      <div>
+        <label><input type="text" placeholder="생년월일 8자리" /></label>
+      </div>
+      <br />
+
+      <div>
+        <select>
+          <option>통신사 선택</option>
+
+          <option value="skt">SKT</option>
+          <option value="kt">KT</option>
+          <option value="lg">LG U+</option>
+        </select>
+      </div>
+
+      <br />
+
+      <span>
+        <label for="gender1">남자</label>
+        <input type="radio" name="sex" id="gender1" />
+        <label for="gender2">여자</label>
+        <input type="radio" name="sex" id="gender2" />
+      </span>
+      |
+      <span>
+        <label for="foreigner1">내국인</label>
+        <input type="radio" name="foreigner" id="foreigner1" />
+        <label for="foreigner2">외국인</label>
+        <input type="radio" name="foreigner" id="foreigner2" />
+      </span>
+
+      <br />
+      <br />
+
+      <div>
+        <label> <input type="number" placeholder="휴대전화번호" /> </label>
+      </div>
+      <br />
+
+      <div>
+        <label> <input type="checkbox" /> [필수] 인증 약관 전체동의</label>
+      </div>
+
+      <br />
+      <br />
+      <br />
+
+      <input type="submit" value="인증 요청" />
+    </form>
+  </body>
+</html>
