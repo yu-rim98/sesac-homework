@@ -416,8 +416,10 @@ function countElements(fruits) {
     let target = fruits[i];
 
     if (newObj[target]) {
+      //  newObj 객체에 target 키가 이미 있으면 값을 1 증가
       newObj[target]++;
     } else {
+      // newObj 객체에 target 키가 없으면 새로운 키로 추가하고 값을 1로 설정
       newObj[target] = 1;
     }
   }
