@@ -199,7 +199,8 @@ let importantIncompleteTodos;
 importantIncompleteTodos = originTodos.filter((element) => {
   if (
     element.completed === false &&
-    (element.priority === MEDIUM_PRIORITY || element.priority === HIGH_PRIORITY)
+    // (element.priority === MEDIUM_PRIORITY || element.priority === HIGH_PRIORITY)
+    element.priority <= MEDIUM_PRIORITY
   ) {
     return element;
   }
